@@ -1,0 +1,257 @@
+{
+	"metadata": {
+		"name": "domehouse",
+		"species": "wanderer",
+		"rules": [],
+		"maxRadius": 2000,
+		"maxParts": 15,
+		"anchor": [ "domehouse" ]
+	},
+
+	"tiles": [
+		{
+			"value": [ 255, 0, 220, 255 ],
+			"comment": "NOP"
+		},
+		{
+			"value": [ 0, 0, 0, 255 ],
+			"comment": "Must be air",
+			"brush": [ [ "clear" ] ],
+			"rules": [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ]
+		},
+		{
+			"value": [ 255, 255, 255, 255 ],
+			"comment": "Must be solid background",
+			"brush": [ [ "surface" ] ],
+			"rules": [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ]
+		},
+		{
+			"value": [ 0, 38, 255, 255 ],
+			"comment": "Primary coupler",
+			"connector": true
+		},
+		{
+			"value": [ 0, 255, 186, 255 ],
+			"comment": "Secondary coupler",
+			"connector": true
+		},
+		{
+			"value": [ 64, 255, 186, 255 ],
+			"comment": "Tertiary coupler",
+			"connector": true
+		},
+		{
+			"value": [ 32, 32, 32, 255 ],
+			"comment": "Clear",
+			"brush": [ [ "clear" ] ]
+		},
+
+		{
+			"value": [ 128, 128, 128, 255 ],
+			"comment": "Biome-specific (foreground, overdraw)",
+			"brush": [ [ "surface" ] ],
+			"rules": [ [ "allowOverdrawing" ] ]
+		},
+		{
+			"value": [ 100, 100, 100, 255 ],
+			"comment": "Biome-specific (foreground)",
+			"brush": [ [ "surface" ] ]
+		},
+		{
+			"value": [ 200, 200, 200, 255 ],
+			"comment": "Biome-specific (background)",
+			"brush": [ [ "clear" ], [ "surfacebackground" ] ]
+		},
+
+		{
+			"value": [ 54, 63, 105, 255 ],
+			"comment": "Water (object layer!)",
+			"brush": [ [ "clear" ], [ "liquid", "water" ] ]
+		},
+		{
+			"value": [ 255, 96, 0, 255 ],
+			"comment": "Lava (object layer!)",
+			"brush": [ [ "clear" ], [ "liquid", "lava" ] ]
+		},
+
+		{
+			"value": [ 255, 0, 0, 255 ],
+			"comment": "Wire 1 - red",
+			"brush": [ [ "wire", { "group": "group1", "local": true } ] ]
+		},
+		{
+			"value": [ 0, 255, 0, 255 ],
+			"comment": "Wire 2 - green",
+			"brush": [ [ "wire", { "group": "group2", "local": true } ] ]
+		},
+		{
+			"value": [ 0, 0, 255, 255 ],
+			"comment": "Wire 3 - blue",
+			"brush": [ [ "wire", { "group": "group3", "local": true } ] ]
+		},
+
+		{
+			"value" : [26, 77, 0, 255],
+			"comment" : "Biome-specific tree",
+			"rules" : [ [ "allowOverdrawing" ] ],
+			"brush" : [ [ "biometree" ] ]
+		},
+
+		{
+			"value" : [34, 102, 0, 255],
+			"comment" : "Biome-specific flora",
+			"rules" : [ [ "allowOverdrawing" ] ],
+			"brush" : [ [ "biomeitems" ] ]
+		},
+
+		////////////////////////BLOCKS/////////////////////////////
+
+
+		{
+			"value" : [221, 182, 126, 255],
+			"comment" : "Soft brick (fg + bg)",
+			"brush" : [ [ "clear" ], [ "front", "fadedblocks" ], [ "back", "fadedblocks" ] ]
+		},
+		{
+			"value" : [178, 147, 102, 255],
+			"comment" : "Soft brick (bg)",
+			"brush" : [ [ "clear" ], [ "back", "fadedblocks" ] ]
+		},
+		{
+			"value" : [248, 242, 210, 255],
+			"comment" : "Books (fg) + Soft brick (bg)",
+			"brush" : [ [ "clear" ], [ "front", "bookpiles" ], [ "back", "fadedblocks" ] ]
+		},
+		
+		
+		{
+			"value" : [139, 70, 17, 255],
+			"comment" : "Wood (fg + bg)",
+			"brush" : [ [ "clear" ], [ "front", "darkwood" ], [ "back", "darkwood" ] ]
+		},
+		{
+			"value" : [86, 59, 37, 255],
+			"comment" : "Wood (bg)",
+			"brush" : [ [ "clear" ], [ "back", "darkwood" ] ]
+		},
+		
+		
+		{
+			"value" : [246, 83, 28, 255],
+			"comment" : "Roof (fg + bg)",
+			"brush" : [ [ "clear" ], [ "front", "rooftiles" ], [ "back", "rooftiles" ] ]
+		},
+		{
+			"value" : [188, 79, 42, 255],
+			"comment" : "Roof (bg)",
+			"brush" : [ [ "clear" ], [ "back", "rooftiles" ] ]
+		},
+		
+		
+		{
+			"value" : [118, 198, 198, 255],
+			"comment" : "Glass (bg)",
+			"brush" : [ [ "clear" ], [ "back", "glass" ] ]
+		},
+
+		/////////////////////////OBJECTS///////////////////////////
+
+
+		{
+			"value": [ 189, 132, 76, 255 ],
+			"comment": "Wooden stairs",
+			"brush": [ [ "clear" ], [ "front", "platform2" ] ]
+		},
+		
+		
+		{
+			"value": [ 255, 61, 61, 255 ],
+			"comment": "Wanderer Red Lantern",
+			"brush": [ [ "clear" ], [ "object", "wandererlantern2" ] ]
+		},
+		{
+			"value": [ 53, 191, 37, 255 ],
+			"comment": "Wanderer Green Lantern",
+			"brush": [ [ "clear" ], [ "object", "wandererlantern3" ] ]
+		},
+		{
+			"value": [ 28, 39, 239, 255 ],
+			"comment": "Wanderer Blue Lantern",
+			"brush": [ [ "clear" ], [ "object", "wandererlantern1" ] ]
+		},
+		
+		
+		{
+			"value": [ 183, 155, 56, 255 ],
+			"comment": "Wooden door",
+			"brush": [ [ "clear" ], [ "object", "wooddoor" ] ]
+		},
+		
+		
+		{
+			"value": [ 223, 163, 163, 255 ],
+			"comment": "Wooden bed",
+			"brush": [ [ "clear" ], [ "object", "woodenbed" ] ]
+		},
+		
+		
+		{
+			"value": [ 247, 196, 18, 255 ],
+			"comment": "Firery Flower Pot",
+			"brush": [ [ "clear" ], [ "object", "fireflowerpot" ] ]
+		},
+		
+		
+		{
+			"value": [ 104, 179, 185, 255 ],
+			"comment": "Full-Size Frigde(left)",
+			"brush": [ [ "clear" ], [ "object", "fridge", { "direction" : "left", "parameters" : { "treasurePools" : [ "foodTreasureMedium" ] } } ] ]
+		},
+		{
+			"value": [ 74, 134, 139, 255 ],
+			"comment": "Basic Oven(left)",
+			"brush": [ [ "clear" ], [ "object", "oven1", {"direction" : "left"} ] ]
+		},
+		
+		{
+			"value": [ 201, 152, 59, 255 ],
+			"comment": "Wooden Table",
+			"brush": [ [ "clear" ], [ "object", "woodtable", {"direction" : "left"} ] ]
+		},
+		
+		{
+			"value": [ 201, 194, 59, 255 ],
+			"comment": "Wooden Chair(right)",
+			"brush": [ [ "clear" ], [ "object", "woodchair", {"direction" : "right"} ] ]
+		},
+		
+
+
+		//////////////////////////NPCS///////////////////////////
+
+
+		{
+			"value": [ 0, 255, 242, 255 ],
+			"comment": "Villager",
+			"brush": [ [ "npc",
+				{
+					"kind": "npc",
+					"species": "wanderer",
+					"typeName": "villager"
+				}
+			] ]
+		}
+		
+	],
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"parts": [
+		{
+			"name": "domehouse",
+			"def": [ "image", [ "domehouse1.png", "domehouse1_objects.png" ] ],
+			"rules": []
+		}
+	]
+}

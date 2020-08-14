@@ -1,0 +1,16 @@
+[
+    {
+		"op": "remove",
+		"path": "/scriptConfig/showTech"
+	},
+	{
+		"op": "add",
+		"path": "/scriptConfig/showTech",
+		"value": [
+			"glider",
+			"aquasphere",
+            "sonicsphere",
+            "spikesphere"
+		]
+	}
+]

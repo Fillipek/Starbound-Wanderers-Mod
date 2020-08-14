@@ -1,0 +1,12 @@
+{
+  "itemName" : "particlecapacitor",
+  "price" : 10,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "particlecapacitor.png",
+  "description" : "Contains Virtual Particles.",
+  "shortdescription" : "Virtual Particle Capacitor",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+  ]
+}

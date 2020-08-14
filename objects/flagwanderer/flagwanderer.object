@@ -1,0 +1,55 @@
+{
+  "objectName" : "flagwanderer",
+  "colonyTags" : ["wanderer"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 100,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "lightColor" : [1, 64, 40],
+  "lightPosition" : [8,16],
+  
+  "description" : "The Wanderer teleportation anchor. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Wanderer Teleport Anchor",
+  "race" : "wanderer",
+  
+  "apexDescription" : "This teleportation anchor resembles a rebel insignia. However, it's Wanderer one.",
+  "avianDescription" : "Such a funny way to name a teleportation locator.",
+  "floranDescription" : "Wanderer anchor makess good point to teleport back to ussing teleporter",
+  "glitchDescription" : "Observant. A locator module attached to this Wanderer display allows it to be bookmarked for teleportation.",
+  "humanDescription" : "Teleportation 'anchor'. I got the joke...",
+  "hylotlDescription" : "This wanderer anchor can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this wanderer anchor for quick teleportin'.",
+  
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagwanderericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "flagwanderer.png:<color>.<frame>", "fullbright" : true }, { "image" : "flagwandererlit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-8, 0],
+	  
+      "frames" : 6,
+      "animationCycle" : 1,
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "flagwanderer.png:<color>.<frame>", "fullbright" : true }, { "image" : "flagwandererlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+	  
+      "frames" : 6,
+      "animationCycle" : 1,
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

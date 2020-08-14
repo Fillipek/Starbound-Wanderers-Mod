@@ -1,0 +1,14 @@
+{
+  "name" : "glider",
+  "type" : "head",
+
+  "scripts" : ["glider.lua"],
+  "animator" : "glider.animation",
+
+  "description" : "Allows to fly and swim smart. To use press ^green;[f]^white;.",
+  "shortDescription" : "Luminous Wings",
+  "rarity" : "Legendary",
+  "icon" : "/stats/effects/hover/hover.png",
+
+  "chipCost" : 60
+}

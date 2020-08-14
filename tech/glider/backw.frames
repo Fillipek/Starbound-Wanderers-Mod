@@ -1,0 +1,11 @@
+{
+  "frameGrid" : {
+    "size" : [64, 64],
+    "dimensions" : [5, 1]
+  },
+
+  "aliases" : {
+    "default" : "0",
+	"dive" : "3"
+  }
+}

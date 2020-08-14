@@ -1,0 +1,112 @@
+{
+  
+  "animatedParts" : {
+    "stateTypes" : {
+      "gliderFront" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+		  "dive" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+		  },
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.6,
+            "mode" : "loop"
+          }
+        }
+      },
+	  "gliderBack" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+		  "dive" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+		  },
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.6,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "frontWing" : {
+        "properties" : {
+          "centered" : true,
+		  "rotationGroup" : "glider",
+		  "zLevel" : -1,
+          "offset" : [0, 0.5]
+        },
+
+        "partStates" : {
+          "gliderFront" : {
+            "off" : {
+            },
+			
+			"dive" : {
+			  "properties" : {
+	    		"image" : "/tech/glider/frontw.png:dive",
+				"fullbright" : true
+			  }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "/tech/glider/frontw.png:<frame>",
+				"fullbright" : true
+              }
+            }
+          }
+        }
+      },
+	  "backWing" : {
+        "properties" : {
+          "centered" : true,
+		  "rotationGroup" : "glider",
+		  "zLevel" : 0,
+          "offset" : [0, 0.5]
+        },
+
+        "partStates" : {
+          "gliderBack" : {
+            "off" : {
+            },
+			
+			"dive" : {
+		  	  "properties" : {
+	    		"image" : "/tech/glider/backw.png:dive",
+				"fullbright" : true
+			  }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "/tech/glider/backw.png:<frame>",
+				"fullbright" : true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "rotationGroups" : {
+    "glider" : {
+      "angularVelocity" : 1000.0
+    }
+  },
+	
+  "sounds" : {
+    "activate" : [ "/sfx/tech/tech_sphere_transform.ogg" ],
+    "deactivate" : [ "/sfx/tech/tech_sphere_transform.ogg" ],
+	"flap" : [ "/sfx/npc/boss/dragonboss_flap3.ogg" ]
+  }
+}

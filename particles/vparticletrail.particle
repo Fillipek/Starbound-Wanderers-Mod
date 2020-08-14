@@ -1,0 +1,22 @@
+{
+  "kind" : "vparticletrail",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/vparticletrail/vparticletrail.animation",
+    "fade" : 0.1,
+    "light" : [0, 50, 30],
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [0, 20],
+    "timeToLive" : 0.2,
+    "size" : 0.75,
+    "layer" : "back",
+    "variance" : {
+      "initialVelocity" : [0.5, 0.5],
+      "finalVelocity" : [0.5, 0.5],
+      "rotation" : 180
+    }
+  }
+}

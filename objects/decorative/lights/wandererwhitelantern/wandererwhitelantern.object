@@ -1,0 +1,54 @@
+{
+  "objectName" : "wandererwhitelantern",
+  "colonyTags" : ["wanderer","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 20,
+
+  "description" : "A green wanderer lantern.",
+  "shortdescription" : "Wanderer White Lantern",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "These lights are commonly used among Wanderers.",
+  "avianDescription" : "A vibrant lantern.",
+  "floranDescription" : "Sssoft colorful light.",
+  "glitchDescription" : "Pleased. It's good to see a traditional light source.",
+  "humanDescription" : "Not very bright, but colorful.",
+  "hylotlDescription" : "A not bright light. It creates a moody atmosphere.",
+  "novakidDescription" : "That's not very bright lightbulb.",
+  "wandererDescription" : "A colorful lantern. They add a plesant atmosphere.",
+
+  "statusEffects" : [ ],
+
+  "learnBlueprintsOnPickup" : [ "wandererwhitelantern" ],
+
+  "lightColor" : [160, 160, 195],
+
+  "inventoryIcon" : "wandererwhitelanternicon.png",
+  "orientations" : [
+	{
+      "image" : "wandererwhitelantern.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3] ],
+      "fgAnchors" : [ [0, 4], [1, 4] ]
+    }
+  ],
+
+  "animation" : "wandererwhitelantern.animation",
+  "animationParts" : {
+    "bg" : "wandererwhitelantern.png",
+    "fg" : "wandererwhitelanternlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

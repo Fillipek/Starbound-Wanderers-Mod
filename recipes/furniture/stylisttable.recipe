@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "whitedye", "count" : 1 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "reddye", "count" : 1 },
+	{ "item" : "bluedye", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "stylisttable",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

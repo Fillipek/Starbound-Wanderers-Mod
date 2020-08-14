@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/wanderer",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/wanderer",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

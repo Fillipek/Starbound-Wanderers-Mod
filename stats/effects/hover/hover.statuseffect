@@ -1,0 +1,16 @@
+{
+  "name" : "hover",
+  "effectConfig" : {
+    "gravityModifier" : 0
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "hover.lua"
+  ],
+
+  "animationConfig" : "hover.animation",
+
+  "label" : "Wings Active",
+  "icon" : "/stats/effects/hover/hover.png"
+}

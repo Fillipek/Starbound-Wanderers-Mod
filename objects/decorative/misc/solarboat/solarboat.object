@@ -1,0 +1,36 @@
+{
+  "objectName" : "solarboat",
+  "colonyTags" : ["wanderer"],
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "A flying boat!",
+  "shortdescription" : "Stored Solar Boat",
+  "race" : "wanderer",
+  "category" : "furniture",
+  "price" : 200,
+
+  "apexDescription" : "Might be useful for reconesance.",
+  "avianDescription" : "A flying boat! I want to ride one of them so much!",
+  "floranDescription" : "Flying boatsss scares Floran. Ssstaying on ground isss better.",
+  "glitchDescription" : "Impressed. What a useful device.",
+  "humanDescription" : "Is it storm-proof?",
+  "hylotlDescription" : "I don't understand the idea of flying boat. Boats are meant to swim.",
+  "novakidDescription" : "Let's go air-fishing!",
+  "wandererDescription" : "It's one of our flying boats. They are more multipurpose than they look.",
+
+
+  "inventoryIcon" : "solarboaticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "solarboat.png",
+
+      "imagePosition" : [-64, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/wanderer",
+		"value" : {
+			"aiFrames" : "wandererAI.png",
+			"portraitFrames" : "portraits/wandererportrait.png",
+			"staticFrames" : "staticwanderer.png"	
+		}
+	}
+]

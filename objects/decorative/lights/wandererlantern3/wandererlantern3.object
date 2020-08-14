@@ -1,0 +1,75 @@
+{
+  "objectName" : "wandererlantern3",
+  "colonyTags" : ["wanderer","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 20,
+
+  "description" : "A green wanderer lantern.",
+  "shortdescription" : "Green Wanderer Lantern",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "These lights are commonly used among Wanderers.",
+  "avianDescription" : "A vibrant lantern.",
+  "floranDescription" : "Sssoft colorful light.",
+  "glitchDescription" : "Pleased. It's good to see a traditional light source.",
+  "humanDescription" : "Not very bright, but colorful.",
+  "hylotlDescription" : "A not bright light. It creates a moody atmosphere.",
+  "novakidDescription" : "That's not very bright lightbulb.",
+  "wandererDescription" : "A good old lantern. The most reliable light source.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [100, 255, 100],
+  
+  "flickerPeriod" : 1,
+  "flickerMinIntensity" : 0.5,
+  "flickerMaxIntensity" : 0.5,
+
+  "inventoryIcon" : "wandererlantern3icon.png",
+  "orientations" : [
+
+    {
+      "image" : "wandererlantern3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "wandererlantern3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "image" : "wandererlantern3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "animation" : "wandererlantern3.animation",
+  "animationParts" : {
+    "bg" : "wandererlantern3.png",
+    "fg" : "wandererlantern3lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

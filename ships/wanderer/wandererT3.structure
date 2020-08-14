@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "wandererT3.png",
+      "position" : [-0.875, 11],
+      "fullbright" : true
+    },
+    {
+      "image" : "wandererT3lit.png",
+      "position" : [-0.875, 11]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "wandererT3blocks.png"
+}

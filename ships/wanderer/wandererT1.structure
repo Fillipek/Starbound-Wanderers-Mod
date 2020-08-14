@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "wandererT1.png",
+      "position" : [-0.875, 11],
+      "fullbright" : true
+    },
+    {
+      "image" : "wandererT1lit.png",
+      "position" : [-0.875, 11]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "wandererT1blocks.png"
+}

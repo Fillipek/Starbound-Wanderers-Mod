@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/items/wanderer",
+		"value" : [
+			[0, [
+				{
+					"head" : [ { "name" : "humantier3head" } ],
+					"chest" : [ { "name" : "humantier3chest" } ],
+					"legs" : [ { "name" : "humantier3pants" } ],
+					"primary" : [ "npcpistol", "npcmachinepistol", "npcassaultrifle" ],
+					"sheathedprimary" : [ "npcbroadsword" ]
+				}
+			] ]
+		]
+	}
+]

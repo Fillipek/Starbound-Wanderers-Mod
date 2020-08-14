@@ -1,0 +1,39 @@
+{
+  "objectName" : "wandererchair",
+  "colonyTags" : ["wanderer","misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A solid metal stool with a pilllow.",
+  "shortdescription" : "Marine Stool",
+  "race" : "wanderer",
+  "category" : "furniture",
+  "price" : 50,
+
+  "apexDescription" : "A metal stool. Just as I like.",
+  "avianDescription" : "This is the most comfortable metal piece I've ever sat.",
+  "floranDescription" : "It'sss cold.",
+  "glitchDescription" : "Impressed. This stool is much softer than I supposed.",
+  "humanDescription" : "A metal stool commonly used in canteens.",
+  "hylotlDescription" : "A well-made metal stool with suprisingly soft seat.",
+  "novakidDescription" : "A stool made outta steel.",
+
+  "inventoryIcon" : "wandererchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wandererchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

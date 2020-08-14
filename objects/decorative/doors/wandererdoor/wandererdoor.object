@@ -1,0 +1,58 @@
+{
+  "objectName" : "wandererdoor",
+  "colonyTags" : ["wanderer", "door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 100,
+  "description" : "This door is capable of withstand many bad things.",
+  "shortdescription" : "Bulkhead Doors",
+  "race" : "wanderer",
+
+  "apexDescription" : "A thick metal door. Solid work.",
+  "avianDescription" : "A usefull door.",
+  "floranDescription" : "Floran not need heavy door. Floran can defend hisssself.",
+  "glitchDescription" : "Inspirated. This door can withstand a castle siege. ",
+  "humanDescription" : "I'm sure if this is a very effective door.",
+  "hylotlDescription" : "An ugly metal door. At least can save somebody.",
+  "novakidDescription" : "A whole lotta' point to this door.",
+
+  "inventoryIcon" : "wandererdooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "wandererdoor.png:right",
+  
+  "orientations" : [
+    {
+      "dualImage" : "wandererdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/largecastledoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/largecastledoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "wandererdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

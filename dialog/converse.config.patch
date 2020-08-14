@@ -1,0 +1,58 @@
+[
+	{
+		"op": "add",
+		"path": "/greeting/wanderer",
+		"value": {
+			"default": [
+					"Hello.",
+					"So nice to make your acquaintance.",
+					"Thank you for your visit.",
+					"How wonderful to meet you.",
+					"May peace follow you.",
+					"May you always find peace.",
+					"So wonderful to meet you.",
+					"So nice to meet you!",
+					"Lovely to meet you.",
+					"I hope peace finds you.",
+					"I wish you tranquillity.",
+					"Good day to you.",
+					"Have a splendid day.",
+					"Welcome.",
+					"You are always welcome.",
+					"May you have a pleasant day.",
+					"Good day.",
+					"How do you do?",
+					"Pleased to meet you.",
+					"So pleased to meet you.",
+					"I wish you good health.",
+					"I wish you happiness.",
+					"How are you?",
+					"Such a pleasure.",
+					"Welcome, young traveller.",
+					"Welcome traveller.",
+					"I wish you well in your travels.",
+					"Go well.",
+					"Warm greetings to you.",
+					"Hello, young traveller."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/wanderer",
+		"value": {
+			"default": [
+					"Where's my bottle of rum?",
+					"Is your vessel strong enough?",
+					"I want to have my own fleet.",
+					"Ahoy!",
+					"Have you seen any of our flagships? They are awesome!",
+					"One day I'll be a captain.",
+					"There's plenty of work onboard.",
+					"I used to serve on ship like yours.",
+					"How's your crew?",
+					"Our life is a journey."
+			]
+		}
+	}
+]

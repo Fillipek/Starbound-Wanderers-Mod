@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "backpainting", "count" : 1 },
+	{ "item" : "eyepainting", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hybridpainting1",
+    "count" : 1
+  },
+  "groups" : [ "stylist" ]
+}

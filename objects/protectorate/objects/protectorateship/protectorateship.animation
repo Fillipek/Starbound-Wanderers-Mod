@@ -1,0 +1,16 @@
+{
+  "globalTagDefaults" : {
+    "species" : "wanderer"
+  },
+
+  "animatedParts" : {
+    "parts" : {
+      "ship" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "protectorateship<species>.png"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "wanderertable",
+  "colonyTags" : ["wanderer","misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A huge round steel plate used as a table.",
+  "shortdescription" : "Round Marine Table",
+  "race" : "wanderer",
+  "category" : "furniture",
+  "price" : 145,
+
+  "apexDescription" : "Simple and solid. Just like military one.",
+  "avianDescription" : "An immensely sturdy table.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A very strudy table.",
+  "humanDescription" : "A cool round table.",
+  "hylotlDescription" : "Round shape is a whit of perfection in this table.",
+  "novakidDescription" : "A nice spinny wooden table.",
+  "wandererDescription" : "A table created from large metal plate. Such a huge shield.",
+
+  "inventoryIcon" : "wanderertableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wanderertable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

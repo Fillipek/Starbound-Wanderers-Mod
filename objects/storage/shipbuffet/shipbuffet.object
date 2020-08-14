@@ -1,0 +1,46 @@
+{
+  "objectName" : "shipbuffet",
+  "colonyTags" : ["misc","wanderer"],
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "Keeps dinners for crew.",
+  "shortdescription" : "Ship Buffet",
+  "race" : "wanderer",
+  "category" : "furniture",
+  "price" : 100,
+
+  "apexDescription" : "This table delivers so much meals.",
+  "avianDescription" : "I see tasty meals inside.",
+  "floranDescription" : "Food isss good for Floran.",
+  "glitchDescription" : "Approving. A very useful table for living creatures.",
+  "humanDescription" : "Dinner time!.",
+  "hylotlDescription" : "This table provide suplies for the crew.",
+  "novakidDescription" : "Looks tasty.",
+  "wandererDescription" : "It's a typical ship buffet.",
+
+  "inventoryIcon" : "shipbuffeticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shipbuffet.png",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+}

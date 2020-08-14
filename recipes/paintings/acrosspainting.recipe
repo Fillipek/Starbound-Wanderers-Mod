@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "acrosspainting",
+    "count" : 1
+  },
+  "groups" : [ "stylist" ]
+}

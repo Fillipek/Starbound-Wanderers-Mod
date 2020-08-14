@@ -1,0 +1,12 @@
+{
+  "itemName" : "particleamplifier",
+  "price" : 60,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "particleamplifier.png",
+  "description" : "Increases energy of the particle flow output.",
+  "shortdescription" : "Prticle Aplifier",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+  ]
+}

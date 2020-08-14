@@ -1,0 +1,48 @@
+{
+  "objectName" : "stylisttable",
+  "colonyTags" : ["crafting","wanderer"],
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Stylist's table",
+        "subtitle" : "  Everything for your beauty!",
+        "icon" : {
+          "file" : "/objects/crafting/stylisttable/windowicon.png"
+        }
+      }
+    },
+    "filter" : ["stylist"]
+  },
+  "printable" : false,
+  "description" : "Used to paint patterns on face.",
+  "shortdescription" : "^orange;Stylist's table^white;",
+  "race" : "wanderer",
+  "category" : "crafting",
+  "price" : 30,
+
+  "apexDescription" : "A table for appearance improvement.",
+  "avianDescription" : "Theese paints are as colorful as my feathers!",
+  "floranDescription" : "Paintsss for massking on hunt.",
+  "glitchDescription" : "Suprised. Why does someone paint body?",
+  "humanDescription" : "I used to play with friends in this way when we were children. Mum was so happy...",
+  "hylotlDescription" : "A stylist uses this to paint traditional patterns on bodies.",
+  "novakidDescription" : "Wanna paint my face.",
+
+  "inventoryIcon" : "stylisttableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "stylisttable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

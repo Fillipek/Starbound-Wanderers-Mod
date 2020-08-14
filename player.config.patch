@@ -1,0 +1,3 @@
+[
+{ "op" : "add", "path" : "/defaultCodexes/wanderer", "value" : [ "protectorate1", "protectorate2", "wandererdiary" ] }
+]

@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/wanderer",
+		"value" : [
+		    "/ships/wanderer/wanderert0.structure",
+			"/ships/wanderer/wanderert1.structure",
+			"/ships/wanderer/wanderert2.structure",
+			"/ships/wanderer/wanderert3.structure",
+			"/ships/wanderer/wanderert4.structure",
+			"/ships/wanderer/wanderert5.structure",
+			"/ships/wanderer/wanderert6.structure",
+			"/ships/wanderer/wanderert7.structure",
+			"/ships/wanderer/wanderert8.structure"
+		]
+	}
+]

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "vp_sniper",
+  "image" : "vp_sniper.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vp_sniper_explosion/vp_sniper_explosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 15.0,
+  "speed" : 100,
+  "knockback" : 40,
+  "lightColor" : [2, 150, 96],
+  "fullbright" : true
+}

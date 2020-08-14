@@ -1,0 +1,94 @@
+{
+  "itemName" : "wanderersniper",
+  "price" : 3500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Launches hyper-velocity particle bursts.",
+  "shortdescription" : "Wanderer Accelerator",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rifle"],
+  
+  "fixedLevel" : false,
+
+  "inventoryIcon" : [
+    { "image" : "wanderersniper.png" }
+  ],
+
+  "animation" : "wanderersniper.animation",
+  "animationParts" : {
+    "middle" : "wanderersniper.png",
+    "middleFullbright" : "wanderersniperfullbright.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/vp_sniper_shot.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 150, 100]
+      }
+    }
+  },
+
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [3.5, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2,
+    "baseDps" : 25,
+    "energyUsage" : 70,
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "fireType" : "auto",
+
+    "projectileType" : "vp_sniper",
+    "projectileParameters" : {
+      "knockbackRange" : [15, 50],
+	  "speed" : 300
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.03,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.6,
+        "armRotation" : 4,
+        "weaponRotation" : 4,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "burstshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

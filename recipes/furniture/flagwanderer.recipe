@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "particlecapacitor", "count" : 1 },
+    { "item" : "copperbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "flagwanderer",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

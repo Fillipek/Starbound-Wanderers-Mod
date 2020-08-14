@@ -1,0 +1,19 @@
+[
+	{ "op" : "add",
+		"path" : "/scriptConfig/dialog/hail/wanderer",
+		"value" : {
+			"default" : [
+				"Watch yourself, stranger.",
+				"Stay out of trouble.",
+				"Don't... Just don't do anything.",
+				"Try not to destroy anything.",
+				"I'm watching you.",
+				"You better not try anything.",
+				"I'm super tough, better not cross me.",
+				"Hi! I mean... Grrr.",
+				"What's your business here?",
+				"What are you lookin' at?"
+			]
+		}
+	}
+]

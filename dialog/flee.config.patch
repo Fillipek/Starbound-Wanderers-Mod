@@ -1,0 +1,18 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/wanderer",
+		"value": {
+			"default": [
+				"Oh no! Help me!",
+				"Help!",
+				"Uh-oh.",
+				"I'm unarmed! Help!",
+				"I need help! I can't defend myself!",
+				"Ah! Stop it!",
+				"What!? What did I do!?",
+				"Abandon ship!"
+			]
+		}
+	}
+]

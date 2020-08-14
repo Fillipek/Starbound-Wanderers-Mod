@@ -1,0 +1,11 @@
+{
+  "author" : "FilipeK",
+  "description" : "Meet the Wanderers. This is a race of unknown origin. Tthey fly across universe in fleets and numerous ships. Some of them are as huge as entire space stations.\n\nCurrent features (v 1.4):\n- a Wanderers race\n- fully custom ship (with ships objects)\n- custom furniture\n- custom \"flag\"\n- face paintings\n- luminous wings: a tech which allows you to fly and swim smart and ultra fast like a torpedo!\n- npcs + tenants\n- microdungeons\n\nFuture plans:\n- separate swimming tech with the same mechanics in water, but cheaper than wings (optional more Strabound-like flying tech)\n- weapons (probably bows or rifles with unique abilities, prevoius were unsuccessfull)\n- armors\n- themed structures and dungeons (I am thinking about other ships or even space-battle)\n- solar sails\nMost of content will be based on \"Virtual Particles\" technology.\n\nHINT: The tech becomes available after completeing Distortion Sphere obstacle course. If you want to have it on an older character, use '/enabletech glider' command. I want to solve it in another way.\nIf you find any issues, please contact me (I am sure you will find something, I just can't notice them all). Enjoy the mod!",
+  "friendlyName" : "The Wanderers",
+  "link" : "steam://url/CommunityFilePage/1507646371",
+  "name" : "Wanderers Race Mod",
+  "path" : ".",
+  "steamContentId" : "1507646371",
+  "tags" : "Crafting and Building|NPCs and Creatures|Dungeons|Cheats and God Items|Ships|Species|Furniture and Objects|Character Improvements|Armor and Clothes",
+  "version" : "1.4"
+}

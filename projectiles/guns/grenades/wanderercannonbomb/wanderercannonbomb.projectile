@@ -1,0 +1,20 @@
+{
+  "projectileName" : "wanderercannonbomb",
+  "physics" : "bowlder",
+  "bounces" : 0,
+  "image" : "wanderercannonbomb.png",
+  "lightColor" : [0, 150, 100],
+  "animationCycle" : 0.1,
+  "speed" : 85,
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ],
+  "emitters" : [ "vparticletrail" ],
+  "power" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

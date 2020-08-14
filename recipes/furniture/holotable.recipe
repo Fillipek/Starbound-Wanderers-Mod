@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "particlecapacitor", "count" : 5 },
+    { "item" : "ironbar", "count" : 10 },
+	{ "item" : "glass", "count" : 10 }
+  ],
+  "output" : { "item" : "holotable", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

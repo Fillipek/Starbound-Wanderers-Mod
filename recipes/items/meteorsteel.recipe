@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "meteoriterock", "count" : 300 },
+	{ "item" : "magmarock", "count" : 30 },
+	{ "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "meteorsteel", "count" : 1 },
+  "duration" : 1.5,
+  "groups" : [ "craftingfurnace2", "bars", "all" ]
+}
