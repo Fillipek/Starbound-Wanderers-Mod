@@ -1,0 +1,34 @@
+{
+  "objectName" : "largeanchorsign",
+  "colonyTags" : ["wanderer"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 150,
+
+  "apexDescription" : "These relief is huge.",
+  "avianDescription" : "How they managed to put that there?",
+  "floranDescription" : "Ssshiny anchor.",
+  "glitchDescription" : "Impressed. Very big piece of metal.",
+  "humanDescription" : "Big like the real one.",
+  "hylotlDescription" : "A Wanderers insignia. A big one.",
+  "novakidDescription" : "I gonna climb that anchor.",
+  "wandererDescription" : "This is one of the biggest I've ever seen.",
+
+  "description" : "A huge relief of a Wanderer insignia.",
+  "shortdescription" : "Large Achor Sign",
+  "race" : "wanderer",
+
+  "inventoryIcon" : "largeanchorsignicon.png",
+  "orientations" : [
+    {
+      "image" : "largeanchorsign.png:<color>",
+      "imagePosition" : [-36, -32],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
