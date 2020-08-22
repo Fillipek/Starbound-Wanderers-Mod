@@ -1,27 +1,27 @@
 {
-  "objectName" : "cargopaint",
+  "objectName" : "largecargosign",
   "colonyTags" : ["wanderer"],
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "decorative",
-  "price" : 60,
+  "price" : 100,
 
   "apexDescription" : "These signs are a common sight in a warehouse.",
-  "avianDescription" : "This sign probably marks the place where cargo should be stored.",
+  "avianDescription" : "This sign probably marks the place where treasures should be stored.",
   "floranDescription" : "Floran wantsss to find a trasure!",
   "glitchDescription" : "Curious. I wonder what's stored here.",
-  "humanDescription" : "Time for some treasure hunting!",
+  "humanDescription" : "Oh boy, here I go lootin' again!",
   "hylotlDescription" : "Well organised depot leads to efficiency increasement.",
   "novakidDescription" : "I guess I won't look inside these crates. Or will I...?",
-  "wandererDescription" : "I often see such a sign next to a cargo bay.",
+  "wandererDescription" : "I used to see such a sign on a cargo bay.",
 
   "description" : "A large sign of a cargo depot.",
   "shortdescription" : "Large Cargo Sign",
-  "race" : "apex",
+  "race" : "wanderer",
 
-  "inventoryIcon" : "cargopainticon.png",
+  "inventoryIcon" : "largecargosignicon.png",
   "orientations" : [
     {
-      "image" : "cargopaint.png:<color>",
+      "image" : "largecargosign.png:<color>",
       "imagePosition" : [-20, -20],
       "frames" : 1,
       "animationCycle" : 1,
