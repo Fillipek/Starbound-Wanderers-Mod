@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "meteorsteel", "count" : 5 },
     { "item" : "particlecapacitor", "count" : 10 },
-    { "item" : "solariumstar", "count" : 6 }
+    { "item" : "solariumstar", "count" : 8 }
   ],
 
   "output" :
