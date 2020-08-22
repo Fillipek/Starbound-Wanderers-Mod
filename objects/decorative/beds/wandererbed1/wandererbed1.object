@@ -36,7 +36,7 @@
   "sitPosition" : [-10, 14],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
-  "sitCoverImage" : "/objects/beds/wandererbed1/wandererbed1cover.png",
+  "sitCoverImage" : "/objects/decorative/beds/wandererbed1/wandererbed1cover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     "bed1"

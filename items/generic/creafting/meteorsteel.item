@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "category" : "craftingMaterial",
   "inventoryIcon" : "meteorsteel.png",
-  "description" : "Meteor Steel is made out of rare ceramic ingredients found inside asteroid rocks. Also needs a catalyst.",
+  "description" : "A thermal resistant alloy of rare minerals found inside asteroids.",
   "shortdescription" : "Meteor Steel",
   "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [

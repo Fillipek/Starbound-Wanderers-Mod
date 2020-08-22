@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "meteorsteel", "count" : 2 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : { "item" : "wandererbed3", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "beds", "all" ]
+}
