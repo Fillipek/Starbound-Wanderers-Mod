@@ -45,8 +45,8 @@
     "class" : "GunFire",
 
     "fireTime" : 2,
-    "baseDps" : 25,
-    "energyUsage" : 70,
+    "baseDps" : 13,
+    "energyUsage" : 50,
     "projectileCount" : 1,
     "inaccuracy" : 0,
     "fireType" : "auto",
