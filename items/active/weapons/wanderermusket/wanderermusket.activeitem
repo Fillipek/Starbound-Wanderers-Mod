@@ -1,0 +1,95 @@
+{
+  "itemName" : "wanderermusket",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A traditional ship defence tool.",
+  "shortdescription" : "Wanderer Rifle",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rifle"],
+  
+  "fixedLevel" : false,
+
+  "inventoryIcon" : [
+    { "image" : "wanderermusket.png" }
+  ],
+
+  "animation" : "wanderermusket.animation",
+  "animationParts" : {
+    "middle" : "wanderermusket.png",
+    "middleFullbright" : "wanderermusketfullbright.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_ar1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 150, 100]
+      }
+    }
+  },
+
+  "baseOffset" : [0.75, 0.125],
+  "muzzleOffset" : [3.5, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.9,
+    "baseDps" : 10,
+    "energyUsage" : 30,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.01,
+    "fireType" : "auto",
+
+    "projectileType" : "vp",
+    "projectileParameters" : {
+      "knockbackRange" : [15, 50],
+	  "speed" : 130
+    },
+	
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.01,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "burstshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

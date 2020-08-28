@@ -1,0 +1,16 @@
+{
+  "projectileName" : "vp",
+  "image" : "vp.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "power" : 15.0,
+  "speed" : 100,
+  "knockback" : 40,
+  "fullbright" : true
+}

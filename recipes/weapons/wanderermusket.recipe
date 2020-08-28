@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "meteorsteel", "count" : 2 },
+    { "item" : "particlecapacitor", "count" : 8 },
+    { "item" : "refinedaegisalt", "count" : 5 }
+  ],
+
+  "output" :
+    {"item" : "wanderermusket", "count" : 1 },
+
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}
