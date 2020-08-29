@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "meteorsteel", "count" : 1 },
+    { "item" : "ironbar", "count" : 2 }
+  ],
+
+  "output" : { "item" : "wanderersoupcauldron", "count" : 1 },
+  "groups" : [ 
+    "craftingfurniture2", "decoration", "all" 
+  ]
+}

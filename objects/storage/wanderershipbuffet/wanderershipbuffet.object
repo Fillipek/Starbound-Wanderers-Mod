@@ -1,13 +1,14 @@
 {
-  "objectName" : "shipbuffet",
-  "colonyTags" : ["misc","wanderer"],
-  "printable" : true,
+  "objectName" : "wanderershipbuffet",
+  "colonyTags" : ["misc", "wanderer", "cooking", "storage"],
+  "printable" : false,
   "rarity" : "Common",
-  "description" : "Keeps dinners for crew.",
+  "description" : "Keeps meals for the crew.",
   "shortdescription" : "Ship Buffet",
   "race" : "wanderer",
-  "category" : "furniture",
+  "category" : "fridgeStorage",
   "price" : 100,
+  "health" : 1.5,
 
   "apexDescription" : "This table delivers so much meals.",
   "avianDescription" : "I see tasty meals inside.",
@@ -18,10 +19,10 @@
   "novakidDescription" : "Looks tasty.",
   "wandererDescription" : "It's a typical ship buffet.",
 
-  "inventoryIcon" : "shipbuffeticon.png",
+  "inventoryIcon" : "wanderershipbuffeticon.png",
   "orientations" : [
     {
-      "dualImage" : "shipbuffet.png",
+      "dualImage" : "wanderershipbuffet.png",
 
       "imagePosition" : [-24, 0],
       "frames" : 1,
@@ -35,7 +36,7 @@
   
   "objectType" : "container",
   "tooltipKind" : "container",
-  "slotCount" : 16,
+  "slotCount" : 32,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,

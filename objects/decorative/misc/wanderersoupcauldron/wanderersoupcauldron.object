@@ -1,20 +1,20 @@
 {
-  "objectName" : "soupcauldron",
-  "colonyTags" : ["misc","wanderer"],
+  "objectName" : "wanderersoupcauldron",
+  "colonyTags" : ["misc", "wanderer"],
   "printable" : true,
   "rarity" : "Common",
   "description" : "This is a huge pot of hot soup.",
-  "shortdescription" : "Cauldron of Soup",
+  "shortdescription" : "Soup Cauldron",
   "race" : "wanderer",
   "category" : "furniture",
   "price" : 100,
 
   "apexDescription" : "Hot meal is always approved.",
-  "avianDescription" : "Huge amount of hot soup.",
+  "avianDescription" : "Huge amount of soup.",
   "floranDescription" : "Thisss sssoup looksss sssuspicious.",
   "glitchDescription" : "Cautious. This soup looks like acid.",
   "humanDescription" : "The best quality soup...",
-  "hylotlDescription" : "I suppose it tastes not the best, but at least is nutritious.",
+  "hylotlDescription" : "I suppose it doesn't taste the best, but should be nutritious.",
   "novakidDescription" : "What's these bubbing liquid!?",
   "wandererDescription" : "A huge pot of the best canteen-quality soup.",
 
@@ -42,10 +42,10 @@
     }
   },
 
-  "inventoryIcon" : "soupcauldronicon.png",
+  "inventoryIcon" : "wanderersoupcauldronicon.png",
   "orientations" : [
     {
-      "dualImage" : "soupcauldron.png",
+      "dualImage" : "wanderersoupcauldron.png",
 
       "imagePosition" : [-8, 0],
       "frames" : 1,
