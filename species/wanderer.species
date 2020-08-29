@@ -25,7 +25,6 @@
       { "item" : "humantier2head" },
       { "item" : "humantier2chest" },
       { "item" : "humantier2pants" },
-      { "item" : "wanderersword" },
       { "item" : "ironshortsword" },
       { "item" : "ironbroadsword" },
       { "item" : "tungstenaxe" },
@@ -66,15 +65,39 @@
       { "item" : "feroziumstaff" },
       { "item" : "violiumshortsword" },
       { "item" : "violiumbroadsword" },
+
+      { "item" : "wanderersniper" },
+      { "item" : "wanderercannon" },
+      { "item" : "wanderermusket" },
+      { "item" : "wandererpistol" },
+
 // Furniture Table 2
       { "item" : "humanstoragelocker" },
-	  { "item" : "wanderertable" },
-	  { "item" : "wandererchair" },
-	  { "item" : "holotable" },
+	    { "item" : "wanderertable" },
+	    { "item" : "wandererchair" },
+	    { "item" : "holotable" },
 	  
-	  { "item" : "wandererbed1" },
+	    { "item" : "wandererbed1" },
+      { "item" : "wandererbed2" },
+      { "item" : "wandererbed3" },
+      { "item" : "wandererhammock1" },
 	  
-	  { "item" : "wandererdoor" },
+	    { "item" : "wandererdoor" },
+
+      { "item" : "wanderersoupcauldron" },
+      { "item" : "wanderershipbuffet" },
+
+      { "item" : "largeanchorsign" },
+      { "item" : "largecargosign" },
+
+      { "item" : "wanderergreenlantern" },
+      { "item" : "wandererredlantern" },
+      { "item" : "wandererbluelantern" },
+      { "item" : "wandererorangelantern" },
+      { "item" : "wandererpurplelantern" },
+      { "item" : "wandererwhitelantern" },
+
+
 // Spinning Wheel
       { "item" : "wandereroutfit1chest" },
       { "item" : "wandereroutfit1legs" },
@@ -84,10 +107,14 @@
       { "item" : "wandereroutfit3legs" },
       { "item" : "wandereroutfit4chest" },
       { "item" : "wandereroutfit4legs" },
+
 // Other
 	  { "item" : "particlecapacitor" },
+    { "item" : "meteorsteel" },
+
 // Paintings
 	  { "item" : "stylisttable" },
+
 	  { "item" : "eyepainting" },
 	  { "item" : "frontpainting" },
 	  { "item" : "nosepainting" },
