@@ -45,10 +45,10 @@
     "class" : "GunFire",
 
     "fireTime" : 0.9,
-    "baseDps" : 25,
-    "energyUsage" : 25,
+    "baseDps" : 35,
+    "energyUsage" : 50,
 	  "projectileCount" : 1,
-    "inaccuracy" : 0.02,
+    "inaccuracy" : 0.03,
     "fireType" : "auto",
 
     "projectileType" : "wanderercannonbomb",

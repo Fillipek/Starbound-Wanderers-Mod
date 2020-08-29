@@ -25,11 +25,6 @@
   "animationCustom" : {
     "sounds" : {
       "fire" : ["/sfx/gun/plasma_ar3.ogg"]
-    },
-    "lights" : {
-      "muzzleFlash" : {
-        "color" : [0, 150, 100]
-      }
     }
   },
 
@@ -45,10 +40,10 @@
     "class" : "GunFire",
 
     "fireTime" : 0.5,
-    "baseDps" : 8,
-    "energyUsage" : 20,
+    "baseDps" : 20,
+    "energyUsage" : 14,
     "projectileCount" : 1,
-    "inaccuracy" : 0.01,
+    "inaccuracy" : 0.02,
     "fireType" : "auto",
 
     "projectileType" : "vp",

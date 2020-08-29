@@ -15,6 +15,6 @@
   ],
   "emitters" : [ "vparticletrail" ],
   "power" : 50,
-  "damageType" : "NoDamage",
+  "knockback" : 40,
   "damageKind" : "default"
 }

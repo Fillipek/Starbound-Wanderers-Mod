@@ -25,16 +25,11 @@
   "animationCustom" : {
     "sounds" : {
       "fire" : ["/sfx/gun/plasma_ar1.ogg"]
-    },
-    "lights" : {
-      "muzzleFlash" : {
-        "color" : [0, 150, 100]
-      }
     }
   },
 
   "baseOffset" : [0.75, 0.125],
-  "muzzleOffset" : [3.5, 0.25],
+  "muzzleOffset" : [3.5, 0.625],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -45,7 +40,7 @@
     "class" : "GunFire",
 
     "fireTime" : 0.9,
-    "baseDps" : 10,
+    "baseDps" : 39,
     "energyUsage" : 30,
     "projectileCount" : 1,
     "inaccuracy" : 0.01,

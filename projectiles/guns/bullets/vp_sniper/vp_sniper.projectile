@@ -14,9 +14,9 @@
     }
   ],
   "statusEffects" : [ ],
-  "power" : 15.0,
+  "power" : 20.0,
   "speed" : 100,
-  "knockback" : 40,
+  "knockback" : 30,
   "lightColor" : [2, 150, 96],
   "fullbright" : true
 }
