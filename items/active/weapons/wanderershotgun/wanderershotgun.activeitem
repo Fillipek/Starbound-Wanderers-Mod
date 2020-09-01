@@ -1,0 +1,87 @@
+{
+  "itemName" : "wanderershotgun",
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A truly overpowered shotgun with very efective reloading.",
+  "shortdescription" : "Wanderer Spinning Shotgun",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "ranged", "shotgun"],
+  
+  "fixedLevel" : false,
+
+  "inventoryIcon" : [
+    { "image" : "wanderershotgun.png" }
+  ],
+
+  "animation" : "wanderershotgun.animation",
+  "animationParts" : {
+    "middle" : "wanderershotgun.png",
+    "middleFullbright" : "wanderershotgunfullbright.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/vp_sniper_shot.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.75, 0.25],
+  "muzzleOffset" : [1.9, 0.625],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.2,
+    "baseDps" : 25,
+    "energyUsage" : 50,
+    "projectileCount" : 10,
+    "inaccuracy" : 0.05,
+    "fireType" : "auto",
+
+    "projectileType" : "vp",
+    "projectileParameters" : {
+      "knockbackRange" : [1, 5],
+	  "speed" : 160
+    },
+    "muzzleFlashVariants" : 1,
+
+   "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 6,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.8,
+        "armRotation" : 360,
+        "weaponRotation" : 360,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
