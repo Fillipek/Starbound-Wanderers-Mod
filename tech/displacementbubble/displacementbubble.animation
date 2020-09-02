@@ -1,0 +1,60 @@
+{
+
+"animatedParts" :
+{
+	"stateTypes" : 
+	{
+		"bubble" : 
+		{
+			"default" : "off",
+			"states" : 
+			{
+				"off" : { },
+				"on" : 
+				{ 
+					"frames" : 1,
+					"cycle" : 1,
+					"mode" : "end"
+				}
+			}
+		}
+	},
+
+	"parts" : 
+	{
+		"bubble" : 
+		{
+			"properties" : 
+			{
+				"centered" : true,
+				"zLevel" : 1,
+				"offset" : [0, 0]
+			},
+
+			"partStates" : 
+			{
+				"bubble" : 
+				{
+					"off" : {},
+					"on" : 
+					{
+						"properties" : 
+						{
+							"image" : "/tech/displacementbubble/displacementbubble.png:<frame>",
+							"fullbright" : true
+						}
+					}
+				}
+			}
+		}
+	}
+},
+	
+"sounds" : 
+{
+	"activate" : [ "/sfx/gun/gnomebeam_start1.ogg" ],
+	"deactivate" : [ "/sfx/gun/gnomebeam_start2.ogg" ],
+	"epic" : [ "/sfx/gun/gnomebeam_loop1.ogg" ]
+}
+
+}
