@@ -2,16 +2,17 @@
     "frameGrid" : 
     {
         "size" : [40, 40],
-        "dimensions" : [8, 1],
+        "dimensions" : [8, 2],
         "names" : [
-            [ "1", "2", "3", "4", "5", "6", "7", "8" ]
+            [ "1", "2", "3", "4", "5", "6", "7", "8" ],
+            [ "activate.1", "activate.2", "activate.3", "activate.4" ]
         ]
     },
     "aliases" :
     {
-        "9" : "8",
-        "10" : "8",
-        "11" : "8",
-        "12" : "8"
+        "deactivate.1" : "activate.4",
+        "deactivate.2" : "activate.3",
+        "deactivate.3" : "activate.2",
+        "deactivate.4" : "activate.1"
     }
 }

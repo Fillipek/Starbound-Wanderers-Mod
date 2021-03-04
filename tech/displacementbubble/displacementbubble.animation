@@ -6,19 +6,19 @@
 				"states": {
 					"off": {},
 					"activate": {
-						"frames": 3,
-						"cycle": 0.3,
+						"frames": 4,
+						"cycle": 0.12,
 						"mode": "transition",
 						"transition": "on"
 					},
 					"on": {
-						"frames": 12,
-						"cycle": 2,
+						"frames": 8,
+						"cycle": 1.2,
 						"mode": "loop"
 					},
 					"deactivate": {
-						"frames": 3,
-						"cycle": 0.3,
+						"frames": 4,
+						"cycle": 0.12,
 						"mode": "transition",
 						"transition": "off"
 					}
@@ -38,7 +38,7 @@
 						"activate": {
 							"properties": {
 								"fullbright": true,
-								"image": "displacementbubble.png:<frame>"
+								"image": "displacementbubble.png:activate.<frame>"
 							}
 						},
 						"on": {
@@ -50,7 +50,7 @@
 						"deactivate": {
 							"properties": {
 								"fullbright": true,
-								"image": "displacementbubble.png:<frame>"
+								"image": "displacementbubble.png:deactivate.<frame>"
 							}
 						}
 					}
@@ -74,8 +74,8 @@
     }
   },
 
-	"sounds": {
-		"activate": ["/sfx/gun/gnomebeam_start1.ogg"],
-		"deactivate": ["/sfx/gun/gnomebeam_start2.ogg"]
-	}
+	"sounds" : {
+    "activate" : [ "/sfx/tech/tech_sphere_transform.ogg" ],
+    "deactivate" : [ "/sfx/tech/tech_sphere_transform.ogg" ]
+  }
 }

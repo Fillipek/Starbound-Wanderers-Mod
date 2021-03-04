@@ -5,13 +5,13 @@
   "scripts" : ["displacementbubble.lua"],
   "animator" : "displacementbubble.animation",
 
-  "description" : "Allows traveling and using tools in zero g. To use press ^green;[f]^white;.",
+  "description" : "Allows to move in zero g. To use press ^green;[f]^white;.",
   "shortDescription" : "Displacement Bubble",
   "rarity" : "Legendary",
-  "icon" : "/stats/effects/hover/hover.png",
+  "icon" : "/tech/displacementbubble/icon.png",
 
   "chipCost" : 8,
 
-  "maxSpeed" : 15,
-  "acceleration" : 40
+  "maxSpeed" : 20,
+  "acceleration" : 60
 }
