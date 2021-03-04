@@ -32,7 +32,7 @@ function activate ()
 
 	tech.setParentState("Stand")
 	animator.playSound("activate")
-	animator.setAnimationState("bubble", "on")
+	animator.setAnimationState("bubble", "activate")
 	self.isActive = true
 
 end
@@ -41,7 +41,7 @@ function deactivate ()
 
 	tech.setParentState(nil)
 	animator.playSound("deactivate")
-	animator.setAnimationState("bubble", "off")
+	animator.setAnimationState("bubble", "deactivate")
 	self.isActive = false
 
 end

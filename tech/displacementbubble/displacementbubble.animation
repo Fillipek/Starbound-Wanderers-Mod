@@ -1,60 +1,72 @@
 {
-
-"animatedParts" :
-{
-	"stateTypes" : 
-	{
-		"bubble" : 
-		{
-			"default" : "off",
-			"states" : 
-			{
-				"off" : { },
-				"on" : 
-				{ 
-					"frames" : 1,
-					"cycle" : 1,
-					"mode" : "end"
+	"animatedParts": {
+		"stateTypes": {
+			"bubble": {
+				"default": "off",
+				"states": {
+					"off": {},
+					"activate": {
+						"frames": 3,
+						"cycle": 0.3,
+						"mode": "transition",
+						"transition": "on"
+					},
+					"on": {
+						"frames": 12,
+						"cycle": 2,
+						"mode": "loop"
+					},
+					"deactivate": {
+						"frames": 3,
+						"cycle": 0.3,
+						"mode": "transition",
+						"transition": "off"
+					}
 				}
 			}
-		}
-	},
-
-	"parts" : 
-	{
-		"bubble" : 
-		{
-			"properties" : 
-			{
-				"centered" : true,
-				"zLevel" : 1,
-				"offset" : [0, 0]
-			},
-
-			"partStates" : 
-			{
-				"bubble" : 
-				{
-					"off" : {},
-					"on" : 
-					{
-						"properties" : 
-						{
-							"image" : "/tech/displacementbubble/displacementbubble.png:<frame>",
-							"fullbright" : true
+		},
+		"parts": {
+			"bubble": {
+				"properties": {
+					"centered": true,
+					"zLevel": 1,
+					"offset": [-0.25, -0.5]
+				},
+				"partStates": {
+					"bubble": {
+						"off": {},
+						"activate": {
+							"properties": {
+								"fullbright": true,
+								"image": "displacementbubble.png:<frame>"
+							}
+						},
+						"on": {
+							"properties": {
+								"image": "displacementbubble.png:<frame>",
+								"fullbright": true
+							}
+						},
+						"deactivate": {
+							"properties": {
+								"fullbright": true,
+								"image": "displacementbubble.png:<frame>"
+							}
 						}
 					}
 				}
 			}
 		}
+	},
+	"sounds": {
+		"activate": [
+			"/sfx/gun/gnomebeam_start1.ogg"
+		],
+		"deactivate": [
+			"/sfx/gun/gnomebeam_start2.ogg"
+		],
+		"epic": [
+			"/sfx/gun/gnomebeam_loop1.ogg"
+		]
 	}
-},
-	
-"sounds" : 
-{
-	"activate" : [ "/sfx/gun/gnomebeam_start1.ogg" ],
-	"deactivate" : [ "/sfx/gun/gnomebeam_start2.ogg" ],
-	"epic" : [ "/sfx/gun/gnomebeam_loop1.ogg" ]
-}
-
 }
