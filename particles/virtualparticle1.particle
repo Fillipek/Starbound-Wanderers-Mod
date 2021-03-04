@@ -1,0 +1,20 @@
+{
+  "kind": "virtualparticle1",
+  "definition": {
+    "type": "textured",
+    "image": "/projectiles/virtualparticle1.png",
+    "size": 1,
+    "fade": 0.5,
+    "position": [0, 0],
+    "offsetRegion": [-1, -1, 1, 1],
+    "initialVelocity": [0, 0],
+    "finalVelocity": [0, 0],
+    "timeToLive": 2,
+    "layer": "front",
+    "variance": {
+      "size": 0.3,
+      "initialVelocity": [1, 1],
+      "position" : [2, 2]
+    }
+  }
+}

@@ -30,7 +30,7 @@
 				"properties": {
 					"centered": true,
 					"zLevel": 1,
-					"offset": [-0.25, -0.5]
+					"offset": [0, -0.75]
 				},
 				"partStates": {
 					"bubble": {
@@ -58,15 +58,24 @@
 			}
 		}
 	},
+
+  "particleEmitters" : {
+		"dashParticles" : {
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "virtualparticle1",
+          "offset" : [0, -0.5]
+        },{
+          "particle" : "virtualparticle2",
+          "offset" : [0, -0.5]
+        }
+      ]
+    }
+  },
+
 	"sounds": {
-		"activate": [
-			"/sfx/gun/gnomebeam_start1.ogg"
-		],
-		"deactivate": [
-			"/sfx/gun/gnomebeam_start2.ogg"
-		],
-		"epic": [
-			"/sfx/gun/gnomebeam_loop1.ogg"
-		]
+		"activate": ["/sfx/gun/gnomebeam_start1.ogg"],
+		"deactivate": ["/sfx/gun/gnomebeam_start2.ogg"]
 	}
 }

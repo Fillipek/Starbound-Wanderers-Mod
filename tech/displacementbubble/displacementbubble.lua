@@ -33,6 +33,7 @@ function activate ()
 	tech.setParentState("Stand")
 	animator.playSound("activate")
 	animator.setAnimationState("bubble", "activate")
+	animator.setParticleEmitterActive("dashParticles", true)
 	self.isActive = true
 
 end
@@ -42,6 +43,7 @@ function deactivate ()
 	tech.setParentState(nil)
 	animator.playSound("deactivate")
 	animator.setAnimationState("bubble", "deactivate")
+	animator.setParticleEmitterActive("dashParticles", false)
 	self.isActive = false
 
 end
